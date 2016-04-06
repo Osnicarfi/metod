@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   get "about" => "pages#about"
   get "dimensoes" => "pages#dimensoes"
   get "economia" => "pages#economia"
+  get "contato" => "pages#contato"
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

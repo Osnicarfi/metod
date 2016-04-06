@@ -11,4 +11,6 @@ class PagesController < ApplicationController
   def economia 
   end 
   
+   def contato 
+  end 
 end
