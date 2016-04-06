@@ -1,0 +1,43 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li><li><%= link_to "Mictório", dimensoes_path %></li></li>
+        <li><li><%= link_to "Economia", economia_path %></li></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Downloads <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+
+            <li><a href="https://dl.dropboxusercontent.com/u/80559551/Material%20e%20Fabrica%C3%A7%C3%A3o.pdf">Matéria prima e fabricação</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="https://dl.dropboxusercontent.com/u/80559551/Relat%C3%B3rio%20T%C3%A9cnico%20%E2%80%93%20Grupo%20de%20Projeto%20do%20Produto.pdf">Relatório técnico</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="https://dl.dropboxusercontent.com/u/80559551/consumo.pdf">Uso de água na Califórnia</a></li>
+
+            
+
+          </ul>
+        </li>
+      </ul>
+     
+      <ul class="nav navbar-nav navbar-right">
+      <li><%= link_to "Sobre nós", about_path %></li> 
+      <li><%= link_to "Contato", about_path %></li> 
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
