@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get "dimensoes" => "pages#dimensoes"
   get "economia" => "pages#economia"
   get "contato" => "pages#contato"
+  get "encomendas" => "pages#encomendas"
 
 
   # The priority is based upon order of creation: first created -> highest priority.
